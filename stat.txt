@@ -1,0 +1,33 @@
+val sql = """select * From Infractions"""
+val dataframe_mysql = spark.read.format("jdbc")
+  .option("url", "jdbc:mysql://remotemysql.com/AwGqBPLJPA")
+  .option("dbtable", s"( $sql ) t")
+  .option("user", "AwGqBPLJPA")
+  .option("password", "3ckJtC0JbL").load()
+
+dataframe_mysql.show()
+dataframe_mysql.createOrReplaceTempView("test")
+
++------------+-------+----+-----+-------------+-----------------+-------+---------+------------+---------------+----------+
+|infractionId|droneId|date|image|violationCode|registrationState|plateId|controled|vehicleColor|vehicleBodyType|streetName|
++------------+-------+----+-----+-------------+-----------------+-------+---------+------------+---------------+----------+
++------------+-------+----+-----+-------------+-----------------+-------+---------+------------+---------------+----------+
+
+sql: String = select * From Infractions
+dataframe_mysql: org.apache.spark.sql.DataFrame = [infractionId: int, droneId: int ... 9 more fields]
+
+val sqlDf = spark.sql("SELECT * FROM test")
+sqlDf.show()
+
++------------+-------+----+-----+-------------+-----------------+-------+---------+------------+---------------+----------+
+|infractionId|droneId|date|image|violationCode|registrationState|plateId|controled|vehicleColor|vehicleBodyType|streetName|
++------------+-------+----+-----+-------------+-----------------+-------+---------+------------+---------------+----------+
++------------+-------+----+-----+-------------+-----------------+-------+---------+------------+---------------+----------+
+
+sqlDf: org.apache.spark.sql.DataFrame = [infractionId: int, droneId: int ... 9 more fields]
+
+%sql 
+
+select * from test
+
+OK

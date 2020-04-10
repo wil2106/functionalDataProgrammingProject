@@ -1,0 +1,50 @@
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mInitial source changes: [0m
+[0m[[0mdebug[0m] [0m	removed:Set(/home/william/Desktop/Broker/src/main/scala/Broker.scala)[0m
+[0m[[0mdebug[0m] [0m	added: Set(/home/william/Desktop/Broker/src/main/scala/Consumer.scala)[0m
+[0m[[0mdebug[0m] [0m	modified: Set()[0m
+[0m[[0mdebug[0m] [0mInvalidated products: Set()[0m
+[0m[[0mdebug[0m] [0mExternal API changes: API Changes: Set()[0m
+[0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/home/william/Desktop/Broker/src/main/scala/Broker.scala, /home/william/Desktop/Broker/src/main/scala/Consumer.scala)[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m	product: Set()[0m
+[0m[[0mdebug[0m] [0m	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/home/william/Desktop/Broker/src/main/scala/Broker.scala, /home/william/Desktop/Broker/src/main/scala/Consumer.scala)[0m
+[0m[[0mdebug[0m] [0mRecompiling all 1 sources: invalidated sources (2) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 1 Scala source to /home/william/Desktop/Broker/target/scala-2.13/classes...[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.13.1[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.13.1[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 6dd77462, interfacing (CompilerInterface) with Scala compiler version 2.13.1[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/usr/lib/jvm/jdk1.8.0_241/jre/lib/resources.jar:/usr/lib/jvm/jdk1.8.0_241/jre/lib/rt.jar:/usr/lib/jvm/jdk1.8.0_241/jre/lib/sunrsasign.jar:/usr/lib/jvm/jdk1.8.0_241/jre/lib/jsse.jar:/usr/lib/jvm/jdk1.8.0_241/jre/lib/jce.jar:/usr/lib/jvm/jdk1.8.0_241/jre/lib/charsets.jar:/usr/lib/jvm/jdk1.8.0_241/jre/lib/jfr.jar:/usr/lib/jvm/jdk1.8.0_241/jre/classes:/home/william/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.13.1.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/home/william/Desktop/Broker/target/scala-2.13/classes:/home/william/.ivy2/cache/org.apache.kafka/kafka_2.13/jars/kafka_2.13-2.4.1.jar:/home/william/.ivy2/cache/org.apache.kafka/kafka-clients/jars/kafka-clients-2.4.1.jar:/home/william/.ivy2/cache/com.github.luben/zstd-jni/jars/zstd-jni-1.4.3-1.jar:/home/william/.ivy2/cache/org.lz4/lz4-java/jars/lz4-java-1.6.0.jar:/home/william/.ivy2/cache/org.xerial.snappy/snappy-java/bundles/snappy-java-1.1.7.3.jar:/home/william/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.28.jar:/home/william/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/bundles/jackson-databind-2.10.0.jar:/home/william/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/bundles/jackson-annotations-2.10.0.jar:/home/william/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/bundles/jackson-core-2.10.0.jar:/home/william/.ivy2/cache/com.fasterxml.jackson.module/jackson-module-scala_2.13/bundles/jackson-module-scala_2.13-2.10.0.jar:/home/william/.ivy2/cache/com.fasterxml.jackson.module/jackson-module-paranamer/bundles/jackson-module-paranamer-2.10.0.jar:/home/william/.ivy2/cache/com.thoughtworks.paranamer/paranamer/bundles/paranamer-2.8.jar:/home/william/.ivy2/cache/com.fasterxml.jackson.dataformat/jackson-dataformat-csv/bundles/jackson-dataformat-csv-2.10.0.jar:/home/william/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/bundles/jackson-datatype-jdk8-2.10.0.jar:/home/william/.ivy2/cache/net.sf.jopt-simple/jopt-simple/jars/jopt-simple-5.0.4.jar:/home/william/.ivy2/cache/com.yammer.metrics/metrics-core/jars/metrics-core-2.2.0.jar:/home/william/.ivy2/cache/org.scala-lang.modules/scala-collection-compat_2.13/bundles/scala-collection-compat_2.13-2.1.2.jar:/home/william/.ivy2/cache/org.scala-lang.modules/scala-java8-compat_2.13/jars/scala-java8-compat_2.13-0.9.0.jar:/home/william/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.13.1.jar:/home/william/.ivy2/cache/com.typesafe.scala-logging/scala-logging_2.13/bundles/scala-logging_2.13-3.9.2.jar:/home/william/.ivy2/cache/org.apache.zookeeper/zookeeper/jars/zookeeper-3.5.7.jar:/home/william/.ivy2/cache/org.apache.zookeeper/zookeeper-jute/jars/zookeeper-jute-3.5.7.jar:/home/william/.ivy2/cache/org.apache.yetus/audience-annotations/jars/audience-annotations-0.5.0.jar:/home/william/.ivy2/cache/io.netty/netty-handler/jars/netty-handler-4.1.45.Final.jar:/home/william/.ivy2/cache/io.netty/netty-common/jars/netty-common-4.1.45.Final.jar:/home/william/.ivy2/cache/io.netty/netty-buffer/jars/netty-buffer-4.1.45.Final.jar:/home/william/.ivy2/cache/io.netty/netty-transport/jars/netty-transport-4.1.45.Final.jar:/home/william/.ivy2/cache/io.netty/netty-resolver/jars/netty-resolver-4.1.45.Final.jar:/home/william/.ivy2/cache/io.netty/netty-codec/jars/netty-codec-4.1.45.Final.jar:/home/william/.ivy2/cache/io.netty/netty-transport-native-epoll/jars/netty-transport-native-epoll-4.1.45.Final.jar:/home/william/.ivy2/cache/io.netty/netty-transport-native-unix-common/jars/netty-transport-native-unix-common-4.1.45.Final.jar:/home/william/.ivy2/cache/commons-cli/commons-cli/jars/commons-cli-1.4.jar:/home/william/.ivy2/cache/org.json4s/json4s-native_2.13/jars/json4s-native_2.13-3.6.6.jar:/home/william/.ivy2/cache/org.json4s/json4s-core_2.13/jars/json4s-core_2.13-3.6.6.jar:/home/william/.ivy2/cache/org.json4s/json4s-ast_2.13/jars/json4s-ast_2.13-3.6.6.jar:/home/william/.ivy2/cache/org.json4s/json4s-scalap_2.13/jars/json4s-scalap_2.13-3.6.6.jar:/home/william/.ivy2/cache/org.apache.curator/curator-framework/bundles/curator-framework-2.6.0.jar:/home/william/.ivy2/cache/org.apache.curator/curator-client/bundles/curator-client-2.6.0.jar:/home/william/.ivy2/cache/com.google.guava/guava/bundles/guava-16.0.1.jar:/home/william/.ivy2/cache/org.apache.curator/curator-recipes/bundles/curator-recipes-2.6.0.jar[0m
+[0m[[33mwarn[0m] [0mthere was one deprecation warning[0m
+[0m[[33mwarn[0m] [0mthere was one deprecation warning (since 2.13.0)[0m
+[0m[[33mwarn[0m] [0mthere were two deprecation warnings in total; re-run with -deprecation for details[0m
+[0m[[33mwarn[0m] [0mthree warnings found[0m
+[0m[[0mdebug[0m] [0mScala compilation took 2.551141495 s[0m
+[0m[[0mdebug[0m] [0mInvalidating /home/william/Desktop/Broker/src/main/scala/Consumer.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /home/william/Desktop/Broker/src/main/scala/Consumer.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/home/william/Desktop/Broker/src/main/scala/Consumer.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/home/william/Desktop/Broker/src/main/scala/Consumer.scala)[0m
+[0m[[0mdebug[0m] [0mThe /home/william/Desktop/Broker/src/main/scala/Consumer.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, wait, $asInstanceOf, equals, asInstanceOf, executionStart, Consumer, synchronized, $isInstanceOf, main, notifyAll, isInstanceOf, consumer, ==, clone, toString, args, !=, getClass, props, ne, eq, delayedInit, ##, finalize, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mInvalidating /home/william/Desktop/Broker/src/main/scala/Broker.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /home/william/Desktop/Broker/src/main/scala/Broker.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/home/william/Desktop/Broker/src/main/scala/Broker.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/home/william/Desktop/Broker/src/main/scala/Broker.scala)[0m
+[0m[[0mdebug[0m] [0mThe /home/william/Desktop/Broker/src/main/scala/Broker.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, Broker, wait, $asInstanceOf, equals, asInstanceOf, executionStart, synchronized, $isInstanceOf, main, notifyAll, isInstanceOf, ==, clone, toString, args, !=, getClass, ne, eq, delayedInit, ##, finalize, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mNew invalidations:[0m
+[0m[[0mdebug[0m] [0m	Set()[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set()[0m
+[0m[[0mdebug[0m] [0mPreviously invalidated, but (transitively) depend on new invalidations:[0m
+[0m[[0mdebug[0m] [0m	Set()[0m
+[0m[[0mdebug[0m] [0mAll newly invalidated sources after taking into account (previously) recompiled sources:Set()[0m

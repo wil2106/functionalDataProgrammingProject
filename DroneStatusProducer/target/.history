@@ -1,0 +1,9 @@
+run
+run wesh
+run "wesh"
+run slt ca va
+run slt
+runMain DroneStatusProducer test
+runMain DroneStatusProducer.scala test
+run 2
+run
